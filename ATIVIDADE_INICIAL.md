@@ -1,55 +1,73 @@
 # Atividade Inicial — Desenvolvimento de Projeto com IA
 
-## Objetivo
+## Objetivo da atividade
 
-Esta etapa tem como objetivo verificar o início do desenvolvimento do projeto, seguindo as boas práticas de desenvolvimento de software com Inteligência Artificial apresentadas em sala de aula.
+Esta atividade tem como objetivo verificar o início do desenvolvimento do projeto, seguindo as boas práticas de desenvolvimento de software com Inteligência Artificial apresentadas em sala de aula.
 
-## Evidências do início do projeto
+## Requisitos solicitados pelo professor
 
-- Repositório criado e acessível no GitHub.
-- Estrutura inicial do projeto registrada por meio de commits.
-- Documentação inicial criada para organizar o desenvolvimento.
-- Uso de boas práticas de desenvolvimento com IA, mantendo objetivos, decisões e próximos passos registrados.
+### 1. Repositório criado e acessível no GitHub
 
-## Organização inicial
+O projeto está organizado no repositório público:
 
-### 1. Objetivo do projeto
+`contafaculdade73-maker/helloworld`
 
-O projeto será desenvolvido de forma incremental, utilizando o GitHub para versionamento e organização dos artefatos produzidos durante as etapas de desenvolvimento.
+O repositório utiliza a branch principal `main` e os arquivos desta etapa foram registrados por meio de commits.
 
-### 2. Boas práticas com Inteligência Artificial
+### 2. Evidências de que o desenvolvimento já foi iniciado
 
-Durante o desenvolvimento, a IA será utilizada como ferramenta de apoio, e não como substituta da análise e das decisões do desenvolvedor. As sugestões geradas serão revisadas, testadas e adaptadas ao contexto do projeto.
+O desenvolvimento inicial está evidenciado por:
 
-Boas práticas consideradas:
+- documentação do projeto em `README.md`;
+- primeira versão funcional em `index.html`;
+- registro das decisões iniciais em `docs/DIARIO_DESENVOLVIMENTO.md`;
+- registro das boas práticas de uso de IA em `docs/BOAS_PRATICAS_IA.md`;
+- organização dos arquivos em pastas;
+- commits descritivos realizados no GitHub.
 
-- Escrever prompts claros e objetivos.
-- Revisar criticamente o código e os textos produzidos pela IA.
-- Testar as soluções antes de incorporá-las ao projeto.
-- Registrar alterações relevantes por meio de commits.
-- Manter uma organização simples e compreensível do projeto.
-- Evitar inserir informações sensíveis ou credenciais nos arquivos e prompts.
-- Verificar se o resultado gerado pela IA atende aos requisitos da atividade.
+### 3. Aplicação inicial das boas práticas de desenvolvimento com IA
 
-### 3. Evidência de desenvolvimento
+A IA está sendo utilizada como ferramenta de apoio ao desenvolvimento. As sugestões geradas são analisadas antes de serem incorporadas ao projeto.
 
-Este arquivo representa uma das primeiras evidências documentais do desenvolvimento do projeto. A partir desta etapa, novas funcionalidades, arquivos e melhorias serão adicionados ao repositório de maneira incremental.
+Nesta etapa foram adotadas as seguintes práticas:
+
+- definir claramente o objetivo antes de solicitar ajuda à IA;
+- utilizar prompts objetivos e contextualizados;
+- revisar o conteúdo produzido pela IA;
+- testar o resultado antes de considerá-lo concluído;
+- registrar decisões e alterações relevantes;
+- manter o projeto versionado no GitHub;
+- não inserir senhas, tokens ou outras informações sensíveis;
+- utilizar commits com mensagens que descrevem as alterações realizadas.
+
+## Organização inicial do projeto
+
+```text
+helloworld/
+├── README.md
+├── ATIVIDADE_INICIAL.md
+├── index.html
+└── docs/
+    ├── BOAS_PRATICAS_IA.md
+    └── DIARIO_DESENVOLVIMENTO.md
+```
+
+## Estado atual
+
+O projeto encontra-se em sua etapa inicial. Já existe uma primeira implementação executável no navegador e documentação que registra o objetivo, as práticas utilizadas e os próximos passos.
 
 ## Próximos passos
 
-1. Definir com maior precisão os requisitos do projeto.
-2. Criar a estrutura inicial dos arquivos necessários.
-3. Implementar uma primeira funcionalidade funcional.
-4. Testar a implementação.
-5. Registrar as alterações com commits descritivos.
-6. Continuar o desenvolvimento de forma incremental.
+1. Definir os requisitos completos do projeto da disciplina.
+2. Ampliar a implementação de acordo com esses requisitos.
+3. Criar e executar testes para as novas funcionalidades.
+4. Registrar as alterações por meio de commits descritivos.
+5. Revisar o código e a documentação com apoio da IA, mantendo a decisão final sob responsabilidade do desenvolvedor.
 
-## Observação sobre a avaliação
+## Avaliação
 
-A avaliação desta etapa considera a organização inicial e as evidências de que os trabalhos foram iniciados. A avaliação será presencial e individual, conforme orientação da atividade.
+A avaliação desta etapa considera a organização inicial e as evidências de que os trabalhos foram iniciados.
 
----
+A avaliação será presencial e individual, conforme orientação do professor.
 
-**Status:** Desenvolvimento iniciado.
-
-**Repositório:** `contafaculdade73-maker/helloworld`
+**Status:** desenvolvimento iniciado e documentado.
